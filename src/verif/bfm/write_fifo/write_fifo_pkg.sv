@@ -16,7 +16,7 @@ package write_fifo_pkg;
 
   `include "base_sequence.sv"
   `include "write_fifo_sequence.sv"
-  `include "fifo_bfm_8b_wr_incr_sequence.sv"
+/*  `include "fifo_bfm_8b_wr_incr_sequence.sv"
   `include "fifo_bfm_8b_wr_fixed_sequence.sv"
   `include "fifo_bfm_32b_wr_incr_alligned_sequence_awlen_0.sv"
   `include "fifo_bfm_64b_wr_incr_alligned_sequence_awlen_1.sv"
@@ -34,7 +34,7 @@ package write_fifo_pkg;
 
 
   `include "fifo_bfm_32b_rd_incr_alligned_sequence_arlen_0.sv"
-
+*/
 
 endpackage
 

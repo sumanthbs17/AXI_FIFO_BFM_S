@@ -1,6 +1,6 @@
 //TOP LEVEL MODULE FOR AXI4 PROJECT
 
-module Project_AXI4_Top # (
+module  Top_Module_AXI4 # (
 						parameter  data_wid   = 64,
 						parameter  adr_wid    = 32,
 						parameter  id_wid     = 8,
@@ -128,7 +128,7 @@ design_fifo DUT_FIFO (
 				   
 
 //INSTANTIATION OF DECODER
-decoder DUT_decoder (
+my_decoder DUT_decoder (
                     .clk          (clk),
                     .rst_n        (rst),										
                     .fifo_empty   (FIFO_EMPTY),

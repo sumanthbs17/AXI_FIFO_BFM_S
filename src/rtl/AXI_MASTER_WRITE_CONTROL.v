@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module AXI_MASTER_WRITE__CONTROL #(parameter  addr_width=32, 
+module AXI_MASTER_WRITE_CONTROL #(parameter  addr_width=32, 
 											  parameter  data_width=64, 			/////data width 8,16,32,64,....1024 bits
 											  parameter	 strobe_width =(data_width/8)
 											  

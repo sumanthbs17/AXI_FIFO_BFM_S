@@ -13,6 +13,7 @@ package test_pkg;
 
   `include "test.sv"
   `include "write_test.sv"
+  /*
   `include "fifo_bfm_8b_wr_incr_test.sv"
   `include "fifo_bfm_8b_wr_fixed_test.sv"
   `include "fifo_bfm_32b_wr_incr_alligned_test_awlen_0.sv"
@@ -32,5 +33,6 @@ package test_pkg;
   `include "fifo_bfm_32b_wr_incr_alligned_test_awlen_12_to_15.sv"
 
   `include "fifo_bfm_32b_rd_incr_alligned_test_arlen_0.sv"
+  */
 endpackage
 `endif

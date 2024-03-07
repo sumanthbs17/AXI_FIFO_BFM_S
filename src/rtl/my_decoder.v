@@ -2,7 +2,7 @@
 //the decoded burst length is consaisdered in bytes i.e byte alligned
 //to write into write fifo 2 more signals are required to judge the valid resp
 
-module decoder #  
+module my_ decoder #  
 
                  (
 	           parameter  data_wid = 64,

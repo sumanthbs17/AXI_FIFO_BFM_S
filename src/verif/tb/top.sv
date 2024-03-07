@@ -5,8 +5,8 @@
 
 module top;
 
-  `include "uvm_macros.svh"
   import uvm_pkg::*;
+  `include "uvm_macros.svh"
   import axi4_globals_pkg::*;
     
   import write_fifo_pkg::*;
