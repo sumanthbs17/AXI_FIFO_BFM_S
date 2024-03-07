@@ -23,11 +23,11 @@ module AXI_Master #(parameter  addr_width=32,
 						  )      ///////
 						 (
 						   /////////AXI Global signals clock and reset
-                     input							AClk,
-							input							ARst,
+                     input							ACLK,
+							input							ARESETn,
 							
 							/////////////AXI Write Address signals
-							output	[7	:	0]								AWID,
+							 output	[7	:	0]								AWID_a,
 							output	[addr_width-1	:	0]				AWADDR,
 							output	[7	:	0]								AWLEN,
 							output	[2	:	0]								AWSIZE,
